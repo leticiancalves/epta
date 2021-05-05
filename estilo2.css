@@ -139,7 +139,39 @@ p {
 h2 {
 	font-size: 25px;
 }
-@media (min-width: 280px ) and (max-width: 768px) {
+@media (max-width: 299px){
+	#texto img {
+		height: auto;
+	}
+		#titulo {
+			font-size: 1em;
+		}
+	
+		#resumo {
+			font-size: 11px;
+		}
+		.imagem img{
+			width: 100px;
+		 }
+		
+		.autor-texto{
+			border: 1px solid red;
+		}
+		footer p{
+			width: 150px;
+			
+		}
+		footer a{
+			float:left;
+		}
+		footer .rodape{
+			padding-top:10px;
+			justify-content: flex-start  !important;
+		
+		
+		}
+}
+@media (min-width: 300px ) and (max-width: 760px) {
 	#texto img {
 	height: auto;
 }
@@ -151,15 +183,26 @@ h2 {
 		font-size: 11px;
 	}
 	footer p{
-		width: 160px;
+		width: 150px;
 		
 	}
 	footer a{
 		float:left;
 	}
+	footer .rodape{
+		padding-top:10px;
+		justify-content: flex-start  !important;
+		
+	}
 
 
 }
+@media (min-width: 761px ) and (max-width: 1299px){
+	#nav-principal, #rodape2{
+		font-size: 15px;
+	}
+}
+
 @media (min-width: 1600px) {
 	#texto img {
 	height: auto;
@@ -167,29 +210,13 @@ h2 {
 .maxWidth {
 	min-width: 1600px;
 }
+#nav-principal, #rodape2{
+	font-size: 25px;
 }
-@media (max-width: 320px) {
-	#titulo {
-		font-size: 0.8em;
-	}
-	#materia {
-		font-size: 15px;
-	}
-	#resumo {
-		font-size: 10px;
-	}
-	#autor {
-		font-size: 9px;
-	}
-	h2 {
-		font-size: 20px;
-	}
-	#relacionados {
-	font-size: 1.2em;
-
 }
 
-}
+
+
 
 
 

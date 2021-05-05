@@ -63,13 +63,13 @@ a:link {
 	text-decoration: none;
 }
 
-#autor {
+.autor {
 	display: block;
 	font-size: 10px;
 	color: #808080;
 	padding-bottom: 10px;
 }
-#autor img {
+.autor img {
 	border-radius: 50%;
 }
 .zoom {
@@ -161,27 +161,69 @@ ul.teste li a {
 		margin: auto;
 		color: #fff;
 		}
-@media (min-width: 280px ) and (max-width: 768px) {
+@media (min-width: 280px ) and (max-width: 760px) {
+		.resumo{
+			padding-left: 10px;
+		}
+		.autor{
+			padding-left: 10px;
+		}
+	footer p{
+		width: 130px;
 		
-			footer p{
-				width: 130px;
-				
-			}
-			footer a{
-				float:left;
-			}
+	}
+	footer a{
+		float:left;
+	}
+	footer .rodape{
+		padding-top:10px;
+		justify-content: flex-start  !important;
+		
+	}
 		
 		
 		}
+@media (min-width: 761px ) and (max-width: 1299px){
+	.resumo{
+		padding-left: 7px;
+	}
+	.autor{
+		padding-left: 7px;
+	}
+	#nav-principal, #rodape2{
+		font-size: 15px;
+	}
+}
 @media (min-width: 1300px ) and (max-width: 1500px) {
 	.maxWidth {
 	min-width: 1250px;
+}
+.autor{
+padding-left: 10px;
+
+}
+.resumo{
+	padding-left: 10px;
 }
 }
 
 @media (min-width: 1600px) {
 .maxWidth {
 	min-width: 1600px;
+}
+#nav-principal, #rodape2{
+	font-size: 25px;
+}
+h4{
+	font-size: 30px;
+}
+.resumo{
+	font-size: 22px;
+	padding-left: 10px;
+}
+.autor{
+	padding-left: 10px;
+	font-size: 15px;
 }
 }
 
@@ -211,18 +253,22 @@ h4 {
 	text-align: center;
  	margin-bottom: 30px;
 }
-.portfolio-image {
-    position: relative;
-    overflow: hidden;
-}
-.bg-gradient-fast-blue-purple {
-    background-image: linear-gradient(to right top,#4682B4,#00CED1,#008B8B,#48D1CC,#5F9EA0);
-}
+.zoom {
+	overflow: hidden;
+	margin-left: 10px;
+  }
+  .zoom img {
+	transition: all 0.3s;
+  
+  
+  }
+  .zoom:hover img {
+	transform: scale(1.1);
+  }
  
 
  .resumo {
  	margin-top: 30px;
- 	text-align: center;
- 	font-family: Roboto;
+ 	font-family: 'Roboto';
 
  }

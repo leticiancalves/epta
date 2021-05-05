@@ -166,19 +166,28 @@ ul.teste li a {
     margin: auto;
     color: #fff;
     }
-    @media (min-width: 280px ) and (max-width: 768px) {
+    @media (min-width: 280px ) and (max-width: 760px) {
 		
 			footer p{
-				width: 130px;
-				
-			}
-			footer a{
-				float:left;
-			}
-		
-		
+        width: 130px;
+        
+      }
+      footer a{
+        float:left;
+      }
+      footer .rodape{
+        padding-top:10px;
+        justify-content: flex-start  !important;
+        
+      }
 		}
-@media (min-width: 1300px ) and (max-width: 1500px) {
+    @media (min-width: 761px ) and (max-width: 1299px) {
+      #nav-principal, #rodape2{
+        font-size: 15px;
+      }
+    }
+
+@media (min-width: 1300px ) and (max-width: 1599px) {
   .maxWidth {
   min-width: 1250px;
 }
@@ -187,6 +196,20 @@ ul.teste li a {
 @media (min-width: 1600px) {
 .maxWidth {
   min-width: 1600px;
+}
+#nav-principal, #rodape2{
+  font-size: 25px;
+}
+h4{
+	font-size: 30px;
+}
+.resumo{
+  font-size: 22px;
+	padding-left: 10px;
+}
+.duracao{
+  font-size: 18px;
+  padding-left: 10px;
 }
 }
 

@@ -127,17 +127,74 @@ h2{
 			letter-spacing: 5px;
 			text-transform: uppercase;
 		}
-		@media (min-width: 280px ) and (max-width: 768px) {
-		
-			footer p{
+        @media (max-width: 280px){
+			.conteudo{
+				padding-left: 10px;
+                padding-right: 0;
+				font-size: 15px;
+				width: 250px;
+               
+			}
+			.texto{
+				font-size: 15px;
+				width: 220px;
+				text-align: justify;
+			}
+            footer p{
 				width: 130px;
 				
 			}
 			footer a{
 				float:left;
 			}
+			footer .rodape{
+				padding-top:10px;
+				justify-content: flex-start  !important;
+				
+			}
+		}
+		@media (min-width: 281px ) and (max-width: 767px) {
+            .conteudo{
+				padding: 0;
+				font-size: 15px;
+                width: 95%;
+				
+               
+			}
+			.texto{
+				font-size: 15px;
+				width: 220px;
+				text-align: justify;
+			}
+			
 			h2, p{
 				text-align: center;
 			}
+            footer p{
+				width: 130px;
+				
+			}
+			footer a{
+				float:left;
+			}
+			footer .rodape{
+				padding-top:10px;
+				justify-content: flex-start  !important;
+				
+			}
 		
 		}
+        @media (min-width: 767px ) and (max-width: 1299px) {
+            #nav-principal, #rodape2{
+                font-size: 15px;
+            }
+        }
+        @media (min-width: 1600px) {
+			.maxWidth {
+				min-width: 1600px;
+			}
+			#nav-principal, #rodape2{
+                font-size: 20px;
+            }
+			
+			}		
